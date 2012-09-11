@@ -1,0 +1,32 @@
+{
+  "name": "cfwheels",
+  "author": "Joshua F. Rountree",
+  "homepage": "http://github.com/JoshuaIRL/",
+  "description": "A toolbelt for creating, starting, stopping, cfwheels instances.",
+  "version": "0.0.0",
+  "private": true,
+  "bin"    : { "wheels": "bin/wheels" },
+  "dependencies": {
+    "connect":"",
+    "commander":"",
+    "multimeter":"",
+    "exec":"",
+    "cson":"",
+    "ansi-color":"",
+    "underscore":"",
+    "adm-zip":"",
+    "request":"",
+    "vows": "0.6.1"
+  },
+  "devDependencies": {
+    "commander":"",
+    "multimeter":"",
+    "adm-zip":"",
+    "request":"",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  }
+}
